@@ -29,8 +29,8 @@
     <script>
         document.getElementById('submitBtn').addEventListener('click', function() {
             const code = document.getElementById('codeInput').value;
-            const baseUrl = 'https://services.homedepot.com/services/serviceconnect/1937/';
-            const suffix = '/ejs300h/hd/bf24dfc4c?source=pss';
+            const baseUrl = 'https://www.homedepot.com/services/i/hvac-maintenance-sc/c61211572/form?source=service-connect-store-computer&zipcode';
+            const suffix = '&store=1937&apronId=ejs300h&flow=';
             
             // Check if the code is 5 digits
             if (code.length === 5 && /^\d+$/.test(code)) {
